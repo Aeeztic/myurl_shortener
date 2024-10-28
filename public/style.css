@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/B.gif');
+    background-size: cover;
+
+}
+
+.container{
+    background: url(images/wood.jpg);
+    padding: 2rem;
+    border-radius: .6rem;
+    border: 5px solid;
+
+}
+h1{
+    margin: 1rem 0;
+    color: white;
+}
+label{
+    color: white;
+}
+input{
+    width: 100%;
+    padding: .9rem;
+    margin: 1.2rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+button{
+    background-color: #4c6faf;
+    color: #fff;
+    padding: .7rem .9rem;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #3e518e;
+}
+th{
+    color: white;
+}
+#result {
+    font-size: 20px; /* Change this value to adjust size */
+    color: white; /* Default text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: Add a background color for better contrast */
+    padding: 10px; /* Optional: Add padding around the text */
+    border-radius: 5px; /* Optional: Rounded corners */
+    margin-top: 20px; /* Add space above the result */
+}
+
+/* Specifically style the "Shortened URL:" text */
+#result a {
+    color: white; /* Change the link color to white */
+    text-decoration: none; /* Optional: Remove underline from link */
+    font-weight: bold; /* Optional: Make the link bold */
+}
+
+/* Change the color of links on hover */
+#result a:hover {
+    text-decoration: underline; /* Optional: Underline link on hover */
+}
+/* Style for the URL table */
+/* Style for the URL table */
+#url-table {
+    width: 100%; /* Makes the table take the full width */
+    border-collapse: collapse; /* Collapses borders between cells */
+}
+
+#url-table th, #url-table td {
+    padding: 10px; /* Adds padding inside table cells */
+    text-align: left; /* Aligns text to the left */
+    font-size: 18px; /* Increases font size */
+    color: white; /* Change text color to white for both header and cells */
+}
+
+/* Style for shortened URLs */
+#url-table a {
+    color: white; /* Change link color to white */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the link bold */
+}
+
+/* Change the background of the table */
+#url-table {
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: Add background color to table */
+}
+
+/* Change the color of links on hover */
+#url-table a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+/* Style the button */
+button {
+    padding: 10px 15px; /* Add padding to the button */
+    font-size: 16px; /* Change font size of the button */
+    background-color: #007BFF; /* Change button background color */
+    color: white; /* Change button text color to white */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
